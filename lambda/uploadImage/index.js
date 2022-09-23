@@ -15,6 +15,7 @@ const a = (data) => {
 export const handler = async () => {
     const data = { test: "test", key: "key" };
 
+    
 
 
     // const response = {
@@ -28,5 +29,6 @@ export const handler = async () => {
     // }
     const res = a(data);
 
+    console.log(res)
     return res;
 };
