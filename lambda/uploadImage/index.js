@@ -14,6 +14,8 @@ const s3 = new S3();
 // }
 
 export const handler = async (dataFromApi) => {
+    console.log("Data:");
+    console.log(dataFromApi);
     const data = { body: dataFromApi.body, key: "key" };
     
     
